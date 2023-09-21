@@ -17,7 +17,7 @@ input[type="search"] {
   font-weight: 500;
 
   .nav-link {
-    color: white;
+    color: #fff;
   }
   .home {
     margin-left: 44px;
@@ -103,21 +103,65 @@ body {
   margin-left: 275px;
 }
 
-.judul1 {
+.judul {
   color: #fff;
   font-family: Roboto;
   font-size: 30px;
   font-style: normal;
   font-weight: 700;
   margin-top: -39px;
-  margin-left: 290px;
+  margin-left: 145px;
 }
 
-.flex-container{
+.flex-container {
   margin-left: 325px;
   border-radius: 20px;
 }
 
-.darkknight, .spider, .dungeon, .johnwick{
+.darkknight,
+.spider,
+.dungeon,
+.johnwick {
   margin-left: 30px;
 }
+
+topgun {
+  margin-top: 35px;
+}
+
+.judultop {
+  font-family: Playfair Display;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 700;
+  color: #ffffff;
+  margin-left: 275px;
+  margin-top: -260px;
+}
+
+.synopsis {
+  width: 750px;
+  height: 60px;
+  color: #ffffff;
+  font-family: PT Sans;
+  margin-left: 275px;
+}
+
+.desc {
+  font-family: PT Sans;
+  margin-left: 260px;
+  margin-top: 45px;
+}
+
+.bold {
+  font-weight: 700;
+  font-style: bold;
+}
+
+footer {
+  color: white;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+
