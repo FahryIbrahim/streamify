@@ -1,0 +1,67 @@
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&family=Playfair+Display:wght@400;500;600;700&family=Roboto:wght@400;500;700&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+  text-decoration: none;
+  background-color: #000000;
+}
+
+input[type="search"] {
+  font-family: FontAwesome;
+}
+.navbar {
+  /* background: #000000; */
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+
+  .nav-link{
+    color: white;
+  }
+  .home {
+    margin-left: 44px;
+  }
+  .movie,
+  .tvshow {
+    margin-left: 27.5px;
+  }
+  .searchbox {
+    margin-left: 1000px;
+    margin-top: 5px;
+    width: 307px;
+    height: 40px;
+  }
+  .searchbtn {
+    margin-top: 5px;
+    width: 100px;
+    height: 40px;
+    border: 1px solid #8b0000;
+    background: #8b0000;
+      color: #ffffff;
+  }
+
+  .searchbtn:hover{
+    background-color: #8a3000;
+  }
+  .avatar {
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    margin-left: 20px;
+  }
+}
+
+body {
+  background-color: #000000;
+}
+
+.banner {
+  width: 1292px;
+  height: 333px;
+  border-radius: 20px;
+  float: right;
+  margin-right: 314px;
+  margin-top: 75px;
+}
