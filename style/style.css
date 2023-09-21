@@ -5,7 +5,6 @@
   box-sizing: border-box;
   font-family: "Roboto", sans-serif;
   text-decoration: none;
-  background-color: #000000;
 }
 
 input[type="search"] {
@@ -17,7 +16,7 @@ input[type="search"] {
   font-style: normal;
   font-weight: 500;
 
-  .nav-link{
+  .nav-link {
     color: white;
   }
   .home {
@@ -26,6 +25,11 @@ input[type="search"] {
   .movie,
   .tvshow {
     margin-left: 27.5px;
+  }
+  home,
+  movie,
+  tvshow:hover {
+    color: #8a3000;
   }
   .searchbox {
     margin-left: 1000px;
@@ -39,12 +43,13 @@ input[type="search"] {
     height: 40px;
     border: 1px solid #8b0000;
     background: #8b0000;
-      color: #ffffff;
+    color: #ffffff;
   }
 
-  .searchbtn:hover{
+  .searchbtn:hover {
     background-color: #8a3000;
   }
+
   .avatar {
     width: 50px;
     height: 50px;
@@ -64,4 +69,55 @@ body {
   float: right;
   margin-right: 314px;
   margin-top: 75px;
+}
+
+.logo {
+  width: 335px;
+  height: 175px;
+  margin-top: -450px;
+}
+
+.banner-desc {
+  width: 291px;
+  height: 39px;
+  text-align: center;
+  font-family: "PT Sans", sans-serif;
+  color: #ffffff;
+  font-weight: 400;
+  margin-top: -150px;
+  margin-left: 15px;
+}
+
+.ornamen {
+  width: 7px;
+  height: 35px;
+  background: #8b0000;
+  margin-top: 500px;
+  margin-left: 275px;
+}
+.ornamen2 {
+  width: 7px;
+  height: 35px;
+  background: #8b0000;
+  margin-top: 60px;
+  margin-left: 275px;
+}
+
+.judul1 {
+  color: #fff;
+  font-family: Roboto;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  margin-top: -39px;
+  margin-left: 290px;
+}
+
+.flex-container{
+  margin-left: 325px;
+  border-radius: 20px;
+}
+
+.darkknight, .spider, .dungeon, .johnwick{
+  margin-left: 30px;
 }
