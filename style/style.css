@@ -95,6 +95,7 @@ body {
   margin-top: 500px;
   margin-left: 275px;
 }
+
 .ornamen2 {
   width: 7px;
   height: 35px;
@@ -164,4 +165,9 @@ footer {
   margin-right: 40px;
 }
 
-
+.card1:hover {
+  transform: scale(1.1);
+}
+.card1 {
+  transition: transform 0.2s;
+}
